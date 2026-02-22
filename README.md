@@ -107,6 +107,23 @@ description: Klare Beschreibung wann dieser Skill verwendet werden soll (max. 20
 ---
 ```
 
+### 🌲 Pine Script (TradingView)
+
+| Skill | Description |
+|-------|-------------|
+| [pine-manager](skills/pine-manager/SKILL.md) | Orchestriert Pine-Script-Entwicklung für komplexe Projekte und Trading-Systeme. Verwenden wenn mehrere Features koordiniert oder ein vollständiges System gebaut werden soll. |
+| [pine-visualizer](skills/pine-visualizer/SKILL.md) | Zerlegt Trading-Ideen in implementierbare Pine-Script-Komponenten. Verwenden für Konzeptanalyse, Strategieplanung oder zum Extrahieren von Ideen aus YouTube-Videos. |
+| [pine-developer](skills/pine-developer/SKILL.md) | Schreibt produktionsreifen Pine-Script-v6-Code nach TradingView-Guidelines. Verwenden zum Erstellen von Indikatoren, Strategien oder Pine-Script-Funktionalität. |
+| [pine-debugger](skills/pine-debugger/SKILL.md) | Debuggt Pine-Script-Probleme in TradingView. Verwenden bei Fehlern, unerwartetem Verhalten oder wenn Debugging-Tools zu einem Script hinzugefügt werden sollen. |
+| [pine-backtester](skills/pine-backtester/SKILL.md) | Backtesting für Pine-Script-Indikatoren und Strategien. Verwenden für Performance-Metriken, Trade-Analyse, Equity-Kurven, Win-Rates und Drawdown-Tracking. |
+| [pine-optimizer](skills/pine-optimizer/SKILL.md) | Optimiert Pine-Script für Performance, UX und visuelle Qualität in TradingView. Verwenden um Ladezeit, UI, Inputs oder Visuals zu verbessern. |
+| [pine-publisher](skills/pine-publisher/SKILL.md) | Bereitet Pine-Scripts für die Veröffentlichung in TradingViews Community-Library vor. Verwenden für Dokumentation, House-Rules-Compliance und Release-Vorbereitung. |
+
+---
+
 ## Sources
 
-Skills adapted from [OctagonAI/skills](https://github.com/OctagonAI/skills).
+Skills adapted from:
+- [OctagonAI/skills](https://github.com/OctagonAI/skills)
+- [vercel-labs/skills](https://github.com/vercel-labs/skills)
+- [traderspost/pinescript-agents](https://github.com/traderspost/pinescript-agents)

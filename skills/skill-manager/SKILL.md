@@ -110,6 +110,18 @@ Sobald ein Skill gewählt ist, lies seine `SKILL.md` aus `skills/<skill-name>/SK
 |-------|--------------|-----------------|
 | `market-analyst-master` | Umfassende Multi-Perspektiven-Aktienanalyse | "vollständige Analyse von X", "Aktien-Report", "alles über X", "recherchiere X" |
 
+### 🌲 Pine Script (TradingView)
+
+| Skill | Am besten für | Trigger-Begriffe |
+|-------|--------------|-----------------|
+| `pine-manager` | Komplexe Pine-Script-Projekte planen und koordinieren | "baue ein komplettes Trading-System", "Pine-Script-Projekt", mehrere Features gleichzeitig |
+| `pine-visualizer` | Trading-Idee in Komponenten zerlegen, YouTube-Video analysieren | "wie würde ich X bauen", "zerlege diese Strategie", YouTube-URL, Konzeptfragen |
+| `pine-developer` | Pine-Script-Code schreiben (Indikatoren, Strategien) | "schreibe einen Pine-Script", "erstelle einen Indikator", "implementiere", "code mir" |
+| `pine-debugger` | Fehler in Pine-Script finden und beheben | "debug", "Fehler", "funktioniert nicht", "falsche Werte", "fix my script" |
+| `pine-backtester` | Backtesting-Logik und Performance-Metriken hinzufügen | "backtest", "Win-Rate", "Drawdown", "Performance-Metriken", "Equity-Kurve" |
+| `pine-optimizer` | Script schneller, schöner oder nutzerfreundlicher machen | "optimiere", "verbessere", "schneller", "bessere UI", "Inputs organisieren" |
+| `pine-publisher` | Script für TradingView-Community vorbereiten | "veröffentlichen", "publish", "House Rules", "Dokumentation", "release" |
+
 ### 🔍 Skill-Discovery
 
 | Skill | Am besten für | Trigger-Begriffe |
@@ -134,6 +146,13 @@ Diese Muster führen ohne Abwägung direkt zu einem Skill:
 | "Upgrade" / "Downgrade" / "Rating-Änderung" | `stock-grades` |
 | "Marktkapitalisierung" + einzelne Firma | `company-market-cap` |
 | "Marktkapitalisierung" + mehrere Firmen | `batch-market-cap` |
+| "Pine Script" + "schreiben" / "erstellen" / "Indikator" | `pine-developer` |
+| "Pine Script" + "Fehler" / "debug" / "funktioniert nicht" | `pine-debugger` |
+| "Pine Script" + "backtest" / "Win-Rate" / "Drawdown" | `pine-backtester` |
+| "Pine Script" + "optimiere" / "verbessere" / "UI" | `pine-optimizer` |
+| "Pine Script" + "veröffentlichen" / "publish" | `pine-publisher` |
+| "Trading-System" / komplexes Projekt + mehrere Features | `pine-manager` |
+| YouTube-URL + Trading / Indikator-Idee | `pine-visualizer` |
 
 ---
 
