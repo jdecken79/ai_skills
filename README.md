@@ -131,6 +131,126 @@ description: Klare Beschreibung wann dieser Skill verwendet werden soll (max. 20
 
 ---
 
+### 💻 Software-Entwicklung (jeffallan)
+
+<details>
+<summary>65 Skills anzeigen – Sprachen, Frameworks, DevOps, AI/ML, Security</summary>
+
+**Sprachen & Frameworks**
+
+| Skill | Kurzbeschreibung |
+|-------|-----------------|
+| [python-pro](skills/python-pro/SKILL.md) | Python 3.11+ mit Type Safety, Async, Testing |
+| [typescript-pro](skills/typescript-pro/SKILL.md) | TypeScript mit Advanced Types, Generics, Decorators |
+| [javascript-pro](skills/javascript-pro/SKILL.md) | JavaScript ES2023+, Async Patterns, Performance |
+| [react-expert](skills/react-expert/SKILL.md) | React 18+, Hooks, State Management, Performance |
+| [react-native-expert](skills/react-native-expert/SKILL.md) | Cross-Platform Mobile mit React Native / Expo |
+| [nextjs-developer](skills/nextjs-developer/SKILL.md) | Next.js 14+, App Router, Server Components |
+| [vue-expert](skills/vue-expert/SKILL.md) | Vue 3, Composition API, Nuxt 3 (TypeScript) |
+| [vue-expert-js](skills/vue-expert-js/SKILL.md) | Vue 3, Composition API, Nuxt 3 (JavaScript) |
+| [angular-architect](skills/angular-architect/SKILL.md) | Angular 17+, Standalone Components, Signals |
+| [golang-pro](skills/golang-pro/SKILL.md) | Go mit Concurrency, Microservices, Performance |
+| [rust-engineer](skills/rust-engineer/SKILL.md) | Rust, Memory Safety, Systems Programming |
+| [java-architect](skills/java-architect/SKILL.md) | Java mit Spring Boot 3.x, Microservices |
+| [kotlin-specialist](skills/kotlin-specialist/SKILL.md) | Kotlin Coroutines, Multiplatform, Android |
+| [swift-expert](skills/swift-expert/SKILL.md) | Swift 5.9+, SwiftUI, iOS/macOS |
+| [cpp-pro](skills/cpp-pro/SKILL.md) | C++20/23, Templates, Memory Management |
+| [csharp-developer](skills/csharp-developer/SKILL.md) | C# .NET 8+, ASP.NET Core, Blazor |
+| [dotnet-core-expert](skills/dotnet-core-expert/SKILL.md) | .NET 8, Minimal APIs, Clean Architecture |
+| [php-pro](skills/php-pro/SKILL.md) | PHP 8.3+, Laravel, Symfony |
+| [flutter-expert](skills/flutter-expert/SKILL.md) | Flutter 3+, Dart, Cross-Platform |
+
+**Web-Frameworks & APIs**
+
+| Skill | Kurzbeschreibung |
+|-------|-----------------|
+| [fastapi-expert](skills/fastapi-expert/SKILL.md) | FastAPI, Pydantic V2, Async Python APIs |
+| [django-expert](skills/django-expert/SKILL.md) | Django, Django REST Framework |
+| [rails-expert](skills/rails-expert/SKILL.md) | Rails 7+, Hotwire, Real-time Features |
+| [laravel-specialist](skills/laravel-specialist/SKILL.md) | Laravel 10+, Eloquent, API Resources |
+| [nestjs-expert](skills/nestjs-expert/SKILL.md) | NestJS, Dependency Injection, Microservices |
+| [spring-boot-engineer](skills/spring-boot-engineer/SKILL.md) | Spring Boot 3.x, Reactive Java |
+| [graphql-architect](skills/graphql-architect/SKILL.md) | GraphQL Schemas, Apollo Federation |
+| [api-designer](skills/api-designer/SKILL.md) | REST/GraphQL Design, OpenAPI Specs |
+| [websocket-engineer](skills/websocket-engineer/SKILL.md) | Real-Time mit WebSockets / Socket.IO |
+
+**Daten & Datenbanken**
+
+| Skill | Kurzbeschreibung |
+|-------|-----------------|
+| [sql-pro](skills/sql-pro/SKILL.md) | SQL-Optimierung, Schema-Design, Query Tuning |
+| [postgres-pro](skills/postgres-pro/SKILL.md) | PostgreSQL, Replication, Advanced Indexing |
+| [database-optimizer](skills/database-optimizer/SKILL.md) | Query-Analyse, Execution Plans, Performance |
+| [pandas-pro](skills/pandas-pro/SKILL.md) | Pandas DataFrames, Cleaning, Aggregation |
+| [spark-engineer](skills/spark-engineer/SKILL.md) | Apache Spark, Distributed Data Processing |
+
+**AI / ML**
+
+| Skill | Kurzbeschreibung |
+|-------|-----------------|
+| [ml-pipeline](skills/ml-pipeline/SKILL.md) | ML Pipelines, Training Workflows, Automation |
+| [fine-tuning-expert](skills/fine-tuning-expert/SKILL.md) | LLM Fine-Tuning, Custom Model Training |
+| [rag-architect](skills/rag-architect/SKILL.md) | RAG Systeme, Vector Databases, Knowledge AI |
+| [prompt-engineer](skills/prompt-engineer/SKILL.md) | Prompt Design, LLM Optimization, Evals |
+| [mcp-developer](skills/mcp-developer/SKILL.md) | MCP Server/Client für AI-Integrationen |
+
+**DevOps & Cloud & Infrastruktur**
+
+| Skill | Kurzbeschreibung |
+|-------|-----------------|
+| [devops-engineer](skills/devops-engineer/SKILL.md) | CI/CD, Containerisierung, Infra Management |
+| [cloud-architect](skills/cloud-architect/SKILL.md) | Cloud Architecture, Migrations, Multi-Cloud |
+| [kubernetes-specialist](skills/kubernetes-specialist/SKILL.md) | Kubernetes Workloads, Cluster Config |
+| [terraform-engineer](skills/terraform-engineer/SKILL.md) | Infrastructure as Code, AWS/Azure/GCP |
+| [monitoring-expert](skills/monitoring-expert/SKILL.md) | Monitoring, Logging, Metrics, Tracing |
+| [sre-engineer](skills/sre-engineer/SKILL.md) | SLIs/SLOs, Error Budgets, Reliability |
+| [microservices-architect](skills/microservices-architect/SKILL.md) | Distributed Systems, Service Decomposition |
+
+**Security**
+
+| Skill | Kurzbeschreibung |
+|-------|-----------------|
+| [security-reviewer](skills/security-reviewer/SKILL.md) | Security Audits, Vulnerability Reviews |
+| [secure-code-guardian](skills/secure-code-guardian/SKILL.md) | Auth/Authz, Input Security, OWASP |
+| [chaos-engineer](skills/chaos-engineer/SKILL.md) | Chaos Experiments, Failure Injection |
+
+**Testing & Qualität**
+
+| Skill | Kurzbeschreibung |
+|-------|-----------------|
+| [test-master](skills/test-master/SKILL.md) | Test Strategies, Automation Frameworks |
+| [playwright-expert](skills/playwright-expert/SKILL.md) | E2E Tests mit Playwright |
+| [code-reviewer](skills/code-reviewer/SKILL.md) | Code Quality Audits, PR Reviews |
+| [debugging-wizard](skills/debugging-wizard/SKILL.md) | Error Analysis, Stack Traces, Root Cause |
+
+**Architektur & Spezial**
+
+| Skill | Kurzbeschreibung |
+|-------|-----------------|
+| [architecture-designer](skills/architecture-designer/SKILL.md) | System Architecture Design & Review |
+| [fullstack-guardian](skills/fullstack-guardian/SKILL.md) | Feature-Implementierung über Frontend + Backend |
+| [legacy-modernizer](skills/legacy-modernizer/SKILL.md) | Legacy-System-Migration und Modernisierung |
+| [embedded-systems](skills/embedded-systems/SKILL.md) | Firmware, Microcontroller, RTOS |
+| [game-developer](skills/game-developer/SKILL.md) | Game Systems, Unity/Unreal |
+| [cli-developer](skills/cli-developer/SKILL.md) | CLI Tools, Argument Parsing, TUI |
+| [code-documenter](skills/code-documenter/SKILL.md) | Docstrings, API Docs, Documentation |
+| [feature-forge](skills/feature-forge/SKILL.md) | Feature Definition, Requirements, Specs |
+| [spec-miner](skills/spec-miner/SKILL.md) | Legacy-System-Dokumentation aus Code extrahieren |
+| [the-fool](skills/the-fool/SKILL.md) | Devil's Advocate: Ideen und Pläne kritisch hinterfragen |
+
+**Weitere Plattformen**
+
+| Skill | Kurzbeschreibung |
+|-------|-----------------|
+| [atlassian-mcp](skills/atlassian-mcp/SKILL.md) | Jira, Confluence über MCP |
+| [salesforce-developer](skills/salesforce-developer/SKILL.md) | Salesforce, Apex, Lightning Web Components |
+| [shopify-expert](skills/shopify-expert/SKILL.md) | Shopify Themes, Apps, Storefront |
+| [wordpress-pro](skills/wordpress-pro/SKILL.md) | WordPress Themes, Plugins, Gutenberg |
+
+</details>
+
+---
+
 ## Sources
 
 Skills adapted from:
@@ -138,3 +258,4 @@ Skills adapted from:
 - [vercel-labs/skills](https://github.com/vercel-labs/skills)
 - [traderspost/pinescript-agents](https://github.com/traderspost/pinescript-agents)
 - [tradermonty/claude-trading-skills](https://github.com/tradermonty/claude-trading-skills)
+- [jeffallan/claude-skills](https://github.com/jeffallan/claude-skills)

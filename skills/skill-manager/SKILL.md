@@ -130,6 +130,32 @@ Sobald ein Skill gewählt ist, lies seine `SKILL.md` aus `skills/<skill-name>/SK
 | `pine-optimizer` | Script schneller, schöner oder nutzerfreundlicher machen | "optimiere", "verbessere", "schneller", "bessere UI", "Inputs organisieren" |
 | `pine-publisher` | Script für TradingView-Community vorbereiten | "veröffentlichen", "publish", "House Rules", "Dokumentation", "release" |
 
+### 💻 Software-Entwicklung (65 Skills)
+
+Bei Entwicklungsaufgaben direkt den passenden Sprach-/Framework-Skill laden. Mapping:
+
+| Trigger | → Skill |
+|---------|---------|
+| Python | `python-pro` | TypeScript | `typescript-pro` | JavaScript | `javascript-pro` |
+| React | `react-expert` | Next.js | `nextjs-developer` | Vue | `vue-expert` |
+| Angular | `angular-architect` | Go | `golang-pro` | Rust | `rust-engineer` |
+| Java/Spring | `java-architect` | Kotlin | `kotlin-specialist` | Swift/iOS | `swift-expert` |
+| C++ | `cpp-pro` | C# / .NET | `csharp-developer` | PHP | `php-pro` |
+| Flutter | `flutter-expert` | FastAPI | `fastapi-expert` | Django | `django-expert` |
+| Rails | `rails-expert` | Laravel | `laravel-specialist` | NestJS | `nestjs-expert` |
+| GraphQL | `graphql-architect` | SQL | `sql-pro` | PostgreSQL | `postgres-pro` |
+| Pandas / Daten | `pandas-pro` | Spark | `spark-engineer` | ML Pipeline | `ml-pipeline` |
+| LLM Fine-Tuning | `fine-tuning-expert` | RAG | `rag-architect` | Prompts | `prompt-engineer` |
+| MCP Server | `mcp-developer` | DevOps / CI-CD | `devops-engineer` | Cloud | `cloud-architect` |
+| Kubernetes | `kubernetes-specialist` | Terraform | `terraform-engineer` | Monitoring | `monitoring-expert` |
+| Security Audit | `security-reviewer` | Auth / OWASP | `secure-code-guardian` | Chaos | `chaos-engineer` |
+| Tests / E2E | `test-master` | Playwright | `playwright-expert` | Code Review | `code-reviewer` |
+| Debugging | `debugging-wizard` | Architektur | `architecture-designer` | Microservices | `microservices-architect` |
+| Legacy | `legacy-modernizer` | Embedded | `embedded-systems` | CLI | `cli-developer` |
+| Docs | `code-documenter` | Features/Specs | `feature-forge` | Ideen challengen | `the-fool` |
+| Jira/Confluence | `atlassian-mcp` | Salesforce | `salesforce-developer` | Shopify | `shopify-expert` |
+| WordPress | `wordpress-pro` | Game Dev | `game-developer` | WebSocket | `websocket-engineer` |
+
 ### 🔍 Skill-Discovery
 
 | Skill | Am besten für | Trigger-Begriffe |
