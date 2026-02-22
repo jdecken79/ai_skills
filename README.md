@@ -1,2 +1,103 @@
 # ai_skills
-Personal Skill Library for Claude Code and others
+
+Personal Skill Library for Claude Code and others.
+
+Skills follow the [Agent Skills Open Standard](https://github.com/anthropics/agent-skills-open-standard). Each skill lives in its own folder under `skills/` and contains a `SKILL.md` with YAML frontmatter (`name`, `description`) and Markdown instructions.
+
+---
+
+## Skills Overview
+
+### 📈 Market & Forex – Master Skills
+
+| Skill | Description |
+|-------|-------------|
+| [market-analyst-master](skills/market-analyst-master/SKILL.md) | Comprehensive market analyst skill orchestrating all Octagon market data skills. Use for stock analysis, market reports, valuation comparison, and sector/technical analysis. |
+
+---
+
+### 💱 Forex
+
+| Skill | Description |
+|-------|-------------|
+| [forex-list](skills/forex-list/SKILL.md) | Retrieve listing of actively traded currency pairs (majors, crosses, exotics) via Octagon MCP. Use for forex market research, pair categorization, and trading opportunity analysis. |
+
+---
+
+### 📊 Stock Data & Quotes
+
+| Skill | Description |
+|-------|-------------|
+| [stock-quote](skills/stock-quote/SKILL.md) | Retrieve real-time stock quotes via Octagon MCP. Use for current price, day/52-week range, volume, market cap, and moving averages for any publicly traded stock. |
+| [stock-performance](skills/stock-performance/SKILL.md) | Retrieve stock price data and performance metrics via Octagon MCP. Use for analyzing closing prices, trading volume, price trends, and historical performance over time. |
+| [stock-price-change](skills/stock-price-change/SKILL.md) | Retrieve stock price change stats across multiple time periods via Octagon MCP. Use for short/long-term return analysis, momentum evaluation, and cross-timeframe comparisons. |
+| [stock-historical-index](skills/stock-historical-index/SKILL.md) | Retrieve historical end-of-day price data for market indices via Octagon MCP. Use for index performance analysis, market trend tracking, and return calculations. |
+| [stock-grades](skills/stock-grades/SKILL.md) | Retrieve latest stock grades and ratings from analysts via Octagon MCP. Use for tracking upgrades, downgrades, rating changes, and institutional sentiment over time. |
+
+---
+
+### 💰 Market Capitalization
+
+| Skill | Description |
+|-------|-------------|
+| [company-market-cap](skills/company-market-cap/SKILL.md) | Retrieve market capitalization for a single company via Octagon MCP. Use for current market value, valuation context, or size classification of any publicly traded stock. |
+| [batch-market-cap](skills/batch-market-cap/SKILL.md) | Retrieve market cap data for multiple companies at once via Octagon MCP. Use for peer valuation comparison, market cap screening, or portfolio size composition analysis. |
+| [historical-market-cap](skills/historical-market-cap/SKILL.md) | Retrieve historical market cap data for any stock via Octagon MCP. Use for tracking valuation trends, identifying peak/trough valuations, and historical size comparisons. |
+
+---
+
+### 🎯 Analyst Price Targets & Ratings
+
+| Skill | Description |
+|-------|-------------|
+| [price-target-summary](skills/price-target-summary/SKILL.md) | Retrieve analyst price target summary for any stock via Octagon MCP. Use for evaluating analyst sentiment, upside/downside potential, and tracking target trends over time. |
+| [price-target-consensus](skills/price-target-consensus/SKILL.md) | Retrieve consensus price targets (avg, median, high, low) for any stock via Octagon MCP. Use for evaluating upside/downside potential and measuring analyst agreement. |
+
+---
+
+### 🏭 Sector & Industry Analysis
+
+| Skill | Description |
+|-------|-------------|
+| [sector-pe-ratios](skills/sector-pe-ratios/SKILL.md) | Retrieve sector P/E ratios via Octagon MCP. Use for comparing company valuations to sector benchmarks and analyzing market-wide valuation trends across exchanges. |
+| [industry-pe-ratios](skills/industry-pe-ratios/SKILL.md) | Retrieve industry-specific P/E ratios via Octagon MCP. Use for comparing valuations to industry peers and understanding niche market valuations beyond broad sector averages. |
+| [sector-performance-snapshot](skills/sector-performance-snapshot/SKILL.md) | Retrieve sector performance metrics (revenue, EBITDA, net income, market cap) via Octagon MCP. Use for sector-wide financial analysis across companies and exchanges. |
+| [industry-performance-snapshot](skills/industry-performance-snapshot/SKILL.md) | Retrieve daily industry performance overview via Octagon MCP. Use for analyzing daily price movements, average changes, and performance trends by specific industry. |
+
+---
+
+### 🛢️ Commodities
+
+| Skill | Description |
+|-------|-------------|
+| [commodities-list](skills/commodities-list/SKILL.md) | Retrieve full catalog of tradable commodities (energy, metals, agriculture) via Octagon MCP. Use for commodity market research, sector coverage, and market participant analysis. |
+| [commodities-quote](skills/commodities-quote/SKILL.md) | Retrieve real-time commodity price quotes via Octagon MCP. Use for current prices, day ranges, moving averages, and tracking metals, energy, and agricultural commodities. |
+
+---
+
+## Prerequisites
+
+All skills in this library require the **[Octagon MCP](https://github.com/OctagonAI/octagon-mcp)** server to be configured in your AI agent (Claude Desktop, Cursor, Windsurf, etc.).
+
+## Adding New Skills
+
+Skills follow this structure:
+
+```
+skills/
+└── skill-name/
+    └── SKILL.md    # YAML frontmatter + Markdown instructions
+```
+
+Frontmatter format:
+
+```yaml
+---
+name: skill-name
+description: Klare Beschreibung wann dieser Skill verwendet werden soll (max. 200 Zeichen)
+---
+```
+
+## Sources
+
+Skills adapted from [OctagonAI/skills](https://github.com/OctagonAI/skills).
