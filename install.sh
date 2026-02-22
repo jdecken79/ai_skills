@@ -44,8 +44,10 @@ else
     read -s -p "   Personal Access Token: " GH_TOKEN
     echo ""
     mkdir -p "$(dirname "$INSTALL_DIR")"
-    git clone "https://${GH_USER}:${GH_TOKEN}@github.com/jdecken79/ai_skills.git" "$INSTALL_DIR"
-    unset GH_TOKEN  # Token sofort aus dem Speicher löschen
+    # URL-encode token to handle special characters in Fine-grained PATs
+    ENCODED_TOKEN=$(python3 -c "import urllib.parse, sys; print(urllib.parse.quote(sys.argv[1], safe=''))" "$GH_TOKEN")
+    git clone "https://${GH_USER}:${ENCODED_TOKEN}@github.com/jdecken79/ai_skills.git" "$INSTALL_DIR"
+    unset GH_TOKEN ENCODED_TOKEN  # Token sofort aus dem Speicher löschen
 fi
 
 echo ""
