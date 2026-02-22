@@ -110,6 +110,14 @@ Sobald ein Skill gewählt ist, lies seine `SKILL.md` aus `skills/<skill-name>/SK
 |-------|--------------|-----------------|
 | `market-analyst-master` | Umfassende Multi-Perspektiven-Aktienanalyse | "vollständige Analyse von X", "Aktien-Report", "alles über X", "recherchiere X" |
 
+### 📰 Trading & Marktanalyse
+
+| Skill | Am besten für | Trigger-Begriffe |
+|-------|--------------|-----------------|
+| `technical-analyst` | Chart-Analyse (Trend, S/R, Szenarien) anhand von Chart-Bildern | "analysiere diesen Chart", "Trendanalyse", "Support/Resistance", Chart-Bild, "was siehst du im Chart" |
+| `options-strategy-advisor` | Options-Strategien berechnen und simulieren | "Covered Call", "Iron Condor", "Put-Spread", "Options-Strategie", "Greeks", "Earnings Play" |
+| `market-news-analyst` | Aktuelle Markt-News analysieren und einordnen | "was ist passiert", "FOMC", "ECB", "BOJ", "Markt-News", "Geopolitik", "Earnings letzte Woche" |
+
 ### 🌲 Pine Script (TradingView)
 
 | Skill | Am besten für | Trigger-Begriffe |
@@ -146,6 +154,9 @@ Diese Muster führen ohne Abwägung direkt zu einem Skill:
 | "Upgrade" / "Downgrade" / "Rating-Änderung" | `stock-grades` |
 | "Marktkapitalisierung" + einzelne Firma | `company-market-cap` |
 | "Marktkapitalisierung" + mehrere Firmen | `batch-market-cap` |
+| Chart-Bild + "analysiere" / "was siehst du" / "Trend" | `technical-analyst` |
+| "Options" + "Strategie" / "Covered Call" / "Greeks" / "Spread" | `options-strategy-advisor` |
+| "News" + "Markt" / "FOMC" / "ECB" / "was ist passiert" | `market-news-analyst` |
 | "Pine Script" + "schreiben" / "erstellen" / "Indikator" | `pine-developer` |
 | "Pine Script" + "Fehler" / "debug" / "funktioniert nicht" | `pine-debugger` |
 | "Pine Script" + "backtest" / "Win-Rate" / "Drawdown" | `pine-backtester` |

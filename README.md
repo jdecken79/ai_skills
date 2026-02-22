@@ -107,6 +107,16 @@ description: Klare Beschreibung wann dieser Skill verwendet werden soll (max. 20
 ---
 ```
 
+### 📰 Trading & Marktanalyse
+
+| Skill | Description |
+|-------|-------------|
+| [technical-analyst](skills/technical-analyst/SKILL.md) | Analysiert Wochenpreis-Charts für Aktien, Indizes, Krypto und Forex. Verwenden wenn Chart-Bilder vorliegen für Trendanalyse, Support/Resistance, Szenarien und Wahrscheinlichkeiten. |
+| [options-strategy-advisor](skills/options-strategy-advisor/SKILL.md) | Options-Strategie-Analyse mit Black-Scholes, Greeks, P/L-Simulation und Risikomanagement. Verwenden für Covered Calls, Spreads, Iron Condors, Earnings Plays und Positions-Sizing. ⚠️ 959 Zeilen |
+| [market-news-analyst](skills/market-news-analyst/SKILL.md) | Analysiert marktbewegende News der letzten 10 Tage und ihre Auswirkungen auf Aktien und Rohstoffe. Verwenden für FOMC/ECB/BOJ-Reaktionen, Geopolitik-Impacts und Earnings-Analysen. ⚠️ 714 Zeilen |
+
+---
+
 ### 🌲 Pine Script (TradingView)
 
 | Skill | Description |
@@ -127,3 +137,4 @@ Skills adapted from:
 - [OctagonAI/skills](https://github.com/OctagonAI/skills)
 - [vercel-labs/skills](https://github.com/vercel-labs/skills)
 - [traderspost/pinescript-agents](https://github.com/traderspost/pinescript-agents)
+- [tradermonty/claude-trading-skills](https://github.com/tradermonty/claude-trading-skills)
