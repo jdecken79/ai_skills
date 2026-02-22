@@ -13,6 +13,7 @@ Skills follow the [Agent Skills Open Standard](https://github.com/anthropics/age
 | Skill | Description |
 |-------|-------------|
 | [skill-manager](skills/skill-manager/SKILL.md) | Routing-Layer für die Library: analysiert die Anfrage und wählt automatisch den passenden Skill – oder präsentiert Optionen bei Mehrdeutigkeit. Einstiegspunkt für alle Finanzmarkt-Anfragen. |
+| [find-skills](skills/find-skills/SKILL.md) | Sucht und installiert Skills aus dem skills.sh-Ökosystem via `npx skills find`. Verwenden wenn der Nutzer nach neuen Fähigkeiten fragt oder die Library erweitern möchte. |
 
 ---
 

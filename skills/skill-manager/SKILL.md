@@ -110,6 +110,12 @@ Sobald ein Skill gewählt ist, lies seine `SKILL.md` aus `skills/<skill-name>/SK
 |-------|--------------|-----------------|
 | `market-analyst-master` | Umfassende Multi-Perspektiven-Aktienanalyse | "vollständige Analyse von X", "Aktien-Report", "alles über X", "recherchiere X" |
 
+### 🔍 Skill-Discovery
+
+| Skill | Am besten für | Trigger-Begriffe |
+|-------|--------------|-----------------|
+| `find-skills` | Neue Skills aus dem skills.sh-Ökosystem finden und installieren | "gibt es einen Skill für X", "ich brauche Hilfe mit Y", "Library erweitern", "npx skills find" |
+
 ---
 
 ## Schnell-Routing (Direkt-Zuordnung)
