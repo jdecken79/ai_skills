@@ -8,6 +8,14 @@ Skills follow the [Agent Skills Open Standard](https://github.com/anthropics/age
 
 ## Skills Overview
 
+### 🧭 Meta-Skills
+
+| Skill | Description |
+|-------|-------------|
+| [skill-manager](skills/skill-manager/SKILL.md) | Routing-Layer für die Library: analysiert die Anfrage und wählt automatisch den passenden Skill – oder präsentiert Optionen bei Mehrdeutigkeit. Einstiegspunkt für alle Finanzmarkt-Anfragen. |
+
+---
+
 ### 📈 Market & Forex – Master Skills
 
 | Skill | Description |
